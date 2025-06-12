@@ -1,9 +1,7 @@
 *.suo
 *.user
 *.sln.docstates
-[Dd]ebug/
-[Rr]elease/
-[Bb]in/
-[Oo]bj/
+LeetcodeCSharp/LeetCodeCSharp/[Bb]in/
+LeetcodeCSharp/LeetCodeCSharp/[Oo]bj/
 Thumbs.db
 ehthumbs.db
