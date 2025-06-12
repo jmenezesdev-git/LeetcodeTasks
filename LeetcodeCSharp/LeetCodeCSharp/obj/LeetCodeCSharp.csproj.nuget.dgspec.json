@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Dev\\Leetcode\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj": {}
+    "C:\\Dev\\LeetcodeTasks\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj": {}
   },
   "projects": {
-    "C:\\Dev\\Leetcode\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj": {
+    "C:\\Dev\\LeetcodeTasks\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Dev\\Leetcode\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj",
+        "projectUniqueName": "C:\\Dev\\LeetcodeTasks\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj",
         "projectName": "LeetCodeCSharp",
-        "projectPath": "C:\\Dev\\Leetcode\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj",
+        "projectPath": "C:\\Dev\\LeetcodeTasks\\LeetcodeCSharp\\LeetCodeCSharp\\LeetCodeCSharp.csproj",
         "packagesPath": "C:\\Users\\EhDer\\.nuget\\packages\\",
-        "outputPath": "C:\\Dev\\Leetcode\\LeetcodeCSharp\\LeetCodeCSharp\\obj\\",
+        "outputPath": "C:\\Dev\\LeetcodeTasks\\LeetcodeCSharp\\LeetCodeCSharp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\EhDer\\AppData\\Roaming\\NuGet\\NuGet.Config"

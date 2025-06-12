@@ -46,7 +46,7 @@ namespace LeetCode{
 
             //Add Two Numbers Task
             //AddTwoNumbersTask();
-                
+
 
 
             //Alphabetic Order Task
@@ -59,6 +59,13 @@ namespace LeetCode{
             //Digits Sum Task
             //DigitsSumTask();
 
+            //Remove Element Task
+            //RemoveElementTask removeE = RemoveElementTask.GetInstance();
+            //Console.WriteLine("After removing 3 from 3,2,2,3 the length of the remaining array is are " + removeE.RemoveElement([3,2,2,3], 3));
+
+            //Reverse Integer Task
+            ReverseIntegerTask reverseInt = ReverseIntegerTask.GetInstance();
+            Console.WriteLine("The reversse of 1534236469 is " + reverseInt.Reverse(1534236469));
             return 0;
         }
 
