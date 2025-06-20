@@ -13,9 +13,13 @@ func main() {
 	// fmt.Println(lengthOfLastWord("   fly me   to   the moon  "))
 	// fmt.Println(lengthOfLastWord("luffy is still joyboy"))
 	//fmt.Println(lengthOfLastWord("a"))
-	fmt.Println(maxArea([]int{1,2,2}))
-	fmt.Println(maxArea([]int{1,8,6,2,5,4,8,3,7}))
+	//fmt.Println(maxArea([]int{1,2,2}))
+	//fmt.Println(maxArea([]int{1,8,6,2,5,4,8,3,7}))
 
+	//fmt.Println(plusOne([]int{9}))
+	fmt.Println(intToRoman(0))
+	//fmt.Println(threeSum([]int{0,1,1}))
+	//fmt.Println(threeSum([]int{0,0,0}))
 	
 
 }
