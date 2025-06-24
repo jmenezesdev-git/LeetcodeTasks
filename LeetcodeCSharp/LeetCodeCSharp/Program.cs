@@ -64,8 +64,58 @@ namespace LeetCode{
             //Console.WriteLine("After removing 3 from 3,2,2,3 the length of the remaining array is are " + removeE.RemoveElement([3,2,2,3], 3));
 
             //Reverse Integer Task
-            ReverseIntegerTask reverseInt = ReverseIntegerTask.GetInstance();
-            Console.WriteLine("The reversse of 1534236469 is " + reverseInt.Reverse(1534236469));
+            //ReverseIntegerTask reverseInt = ReverseIntegerTask.GetInstance();
+            //Console.WriteLine("The reversse of 1534236469 is " + reverseInt.Reverse(1534236469));
+
+            //Letter Combinations of a Phone Number Task
+            // LetterCombinationsTask letterCombinations = LetterCombinationsTask.GetInstance();
+            // Console.WriteLine("The possibilities of 23 are:" );
+            // IList<string> results = letterCombinations.LetterCombinations("23");
+            // foreach (string s in results)
+            // {
+            //     Console.Write(s + ", ");
+            //  }
+
+            // Console.Write("\n");
+
+            //Remove Nth from End Task
+            // RemoveNthFromEndTask removeNthFromEnd = RemoveNthFromEndTask.GetInstance();
+            // Console.WriteLine("The possibilities of 23 are:" );
+            // //ListNode l1 = new ListNode(1, new ListNode(2, new ListNode(3, new ListNode(4, new ListNode(5, null)))));
+            // ListNode l1 = new ListNode(1, new ListNode(2, null));
+            // ListNode results2 = removeNthFromEnd.RemoveNthFromEnd(l1, 2);
+            // PrintChain(results2);
+
+            //Regular Expression Matching Task
+            //We apparently are implementing Regex in a language with native Regex support?
+            
+            // string s = "aab";
+            // string p = "c*a*b";
+             ManualRegexTask manualRegex = ManualRegexTask.GetInstance();
+            // string s = "mississippi";
+            // string p = "mis*is*ip*.";
+            // p = "mis*is*p*.";
+            // string s = "aa";
+            // string p = ".*";
+            // string s = "ab";
+            // string p = ".*c";
+            // string s = "ac";
+            // string p = ".*c";
+            // string s = "aaa";
+            // string p = "aaaa";
+            string s = "aabcbcbcaccbcaabc";
+            string p = ".*a*aa*.*b*.c*.*a*";
+            //p = ".*a.*..*";
+
+            if (manualRegex.IsMatch(s, p))
+            {
+                Console.WriteLine("String " + s + " Pattern " + p + " WAS a match.");
+            }
+            else
+            {
+                Console.WriteLine("String " + s + " Pattern " + p + " was NOT a match.");
+            }
+
             return 0;
         }
 
