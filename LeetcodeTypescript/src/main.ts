@@ -6,4 +6,7 @@ document.body.appendChild(h1);
 
 //Tasks.RemoveDuplicatesSortedTask();
 //Tasks.LongestPalindromeTask();
-Tasks.ZigZagConvertTask();
+//Tasks.ZigZagConvertTask();
+//Tasks.GenerateParenthesisTask();
+//Tasks.SwapPairsTask();
+Tasks.MergeKListsTask();
