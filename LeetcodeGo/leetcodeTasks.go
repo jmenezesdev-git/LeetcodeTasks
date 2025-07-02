@@ -17,11 +17,49 @@ func main() {
 	//fmt.Println(maxArea([]int{1,8,6,2,5,4,8,3,7}))
 
 	//fmt.Println(plusOne([]int{9}))
-	fmt.Println(intToRoman(0))
-	//fmt.Println(threeSum([]int{0,1,1}))
+	///fmt.Println(intToRoman(0))
+	//fmt.Println(threeSum([]int{-2,0,3,-1,4,0,3,4,1,1,1,-3,-5,4,0}))
 	//fmt.Println(threeSum([]int{0,0,0}))
+	// fmt.Println(threeSum([]int{-2,0,0,2,2}))
+
+	//fmt.Println(threeSum([]int{-10,0,10,20,-10,-40}))
+	// fmt.Println(threeSumClosest([]int{-1,2,1,-4}, 1))
+	//fmt.Println(threeSumClosest([]int{0,1,2}, 1))
+	// fmt.Println(threeSumClosest([]int{10,20,30,40,50,60,70,80,90}, 1))
+	//fmt.Println(fourSum([]int{1,0,-1,0,-2,2}, 0))
+	// fmt.Println(fourSum([]int{-2,-1,-1,1,1,2,2}, 0))
+	fmt.Println(fourSum([]int{-3,-1,0,2,4,5}, 2))
+	// fmt.Println(fourSum([]int{10,20,30,40,50,60,70,80,90}, 1))
+
+
 	
 
+	
+	
+
+}
+
+func partition(arr []int, low, high int) ([]int, int) {
+	pivot := arr[high]
+	i := low
+	for j := low; j < high; j++ {
+		if arr[j] < pivot {
+			arr[i], arr[j] = arr[j], arr[i]
+			i++
+		}
+	}
+	arr[i], arr[high] = arr[high], arr[i]
+	return arr, i
+}
+
+func quickSort(nums []int, low int, high int) []int{
+	if low < high{
+		var p int
+		nums, p = partition(nums, low, high)
+		nums = quickSort(nums, low, p-1)
+		nums = quickSort(nums, p+1, high)
+	}
+	return nums
 }
 
 func twoSum(nums []int, target int) []int {
